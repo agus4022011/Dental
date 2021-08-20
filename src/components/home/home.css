@@ -1,0 +1,13 @@
+.section__img{
+    background:url('https://www.colonclinicadental.com/wp-content/uploads/2014/03/foto-grupo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+}
+
+
+.section__cards{
+    padding: 5%;
+    max-width: 100%;
+}

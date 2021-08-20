@@ -7,6 +7,45 @@
   pointer-events: none;
 }
 
+
+.app__contact{
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+  background: rgb(18, 89, 112);
+  border-radius: 10px;
+  }
+
+
+.app__contact  p{
+  padding: 0.2%;
+  margin: 0;
+  width: 20%;
+  display: flex;
+  margin-left: 1%;
+  align-items: center;
+}
+
+.app__contact-icon{
+  margin-right: 5%;
+}
+
+.app_contact-recomendation{
+  margin-left: auto;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import Menu from "./components/menu/menu";
+import Home from "./components/home/home";
+
+import PhoneIcon from "@material-ui/icons/Phone";
+import EmailIcon from "@material-ui/icons/Email";
+import LocationOnIcon from "@material-ui/icons/LocationOn";
+import FacebookIcon from "@material-ui/icons/Facebook";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="app__contact">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <LocationOnIcon className="app__contact-icon" />
+          Carmelo,prueba 2311
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+          {" "}
+          <PhoneIcon className="app__contact-icon" />
+          +5984551122
+        </p>
+        <div className='app_contact-recomendation'>
+          <FacebookIcon />
+          <LocationOnIcon />
+          <PhoneIcon />
+          <EmailIcon />
+        </div>
+      </div>
+      <Menu />
+      <Home />
     </div>
   );
 }
